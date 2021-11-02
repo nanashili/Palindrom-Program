@@ -22,6 +22,12 @@ public class MainClass {
             System.out.println("Not a palindrome");
         }
     }
+    
+    /**
+    * The following algorithm checks the first and last characters are the same, 
+    * and then walks further inside the string checking the results each time. 
+    * It returns as soon as the value is not a palindrome.
+    **/
 
     private static boolean isPalindrome(String value) {
         int n = value.length();
